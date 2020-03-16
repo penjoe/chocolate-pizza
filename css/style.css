@@ -1,0 +1,75 @@
+body {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#site-name {
+  font-family: 'Yellowtail', cursive;
+  font-size: 50px;
+}
+
+.header-linebreak {
+  margin: 20px  0px;
+  padding: 6px 0px;
+  width: 900px;
+  background-image: url(../images/linebreak.png);
+  display: block;
+  background-repeat: repeat-x;
+  background-repeat: space;
+}
+
+#chocolate-pizza {
+  margin-bottom
+}
+
+.recipe {
+  text-indent: 40px;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  width: 900px;
+}
+
+#ingredients-list {
+  background-image: url(../images/list-bg.png);
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  height: 300px;
+}
+
+#right-list {
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 85px;
+
+}
+
+#left-list {
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 60px;
+}
+
+label {
+  padding: 0px;
+  line-height: 30px;
+  font-size: 22px;
+}
+
+#left-footer-hr {
+  display: inline-block;
+  width: 450px;
+}
+
+#right-footer-hr {
+  display: inline-block;
+  width: 450px;
+}
+
+/* #footer {
+  background-image: url(../images/footer-logo.png);
+} */
