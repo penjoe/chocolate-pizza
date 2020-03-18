@@ -1,15 +1,58 @@
 body {
-  width: 960px;
+  width: 920px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#delicious {
+  border: 1px solid black;
+  width: 600px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+#header-logo {
+  height: 60px;
+  border: 10px;
+  margin: 10px 0px 0px 0px;
+  display: inline-block;
 }
 
 #site-name {
   font-family: 'Yellowtail', cursive;
   font-size: 50px;
+  display: inline-block;
+}
+
+#slogan {
+  display: inline-block;
+}
+
+#header-slogan {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#social-media {
+  border: 1px solid black;
+  float: right;
+  width: 215px;
+  height: 24px;
+  margin: 30px 20px 0px 0px;
+}
+
+.social-icons {
+  display: inline-block;
+  margin: 0px -1px;
+}
+
+#rss-mail {
+  margin-left: 8px;
+  display: inline-block;
 }
 
 .header-linebreak {
+  clear: both;
   margin: 20px  0px;
   padding: 6px 0px;
   width: 900px;
@@ -20,13 +63,14 @@ body {
 }
 
 #chocolate-pizza {
-  margin-bottom
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .recipe {
   text-indent: 40px;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 25px;
   margin-top: 10px;
   margin-right: 15px;
   margin-left: 15px;
